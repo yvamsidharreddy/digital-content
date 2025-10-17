@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Content</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="logo.png" alt="Logo" class="logo-img" />
+      <h1 class="site-title">My Digital Content</h1>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <div class="side-top">
+        <button id="toggleBtn" class="collapse-btn" aria-label="Toggle sidebar">☰</button>
+        <div class="side-brand">Contents</div>
+      </div>
+      <nav>
+        <ul class="menu" id="menuList">
+          <li data-file="home.html" class="active">Home</li>
+          <li data-file="unit1.html">Unit 1: Introduction</li>
+          <li data-file="unit2.html">Unit 2: Editing & Formatting</li>
+          <li data-file="unit3.html">Unit 3: Advanced Features</li>
+          <li data-file="unit4.html">Unit 4: Practice & Projects</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="breadcrumb" id="breadcrumb">Home</div>
+      <div id="content-area" class="content-area">
+        <h2>Welcome</h2>
+        <p>Select a unit from the sidebar to view content. You can place all your HTML files in the same folder as this file.</p>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div>© 2025 My Digital Content • Built for offline use</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
